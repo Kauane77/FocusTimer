@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+:root {
+--bg-color-minutes: #323238;
+--bg-color-time: #E1E1E6;
+--bg-color-hover:#a6a6af;
+
+--bg-color-um: #02799D;
+--bg-color-desenho-timer: #FFFFFF;
+
+--bg-color-background: #FFFFFF;
+
+font-size: 62.5%;
+}
+
+body{
+
+    background-color: var(--bg-color-background);
+
+    font-family: 'Roboto', sans-serif;
+
+    font-size:8.2rem;
+    padding: 40.2rem;
+
+    display: flex;
+ 
+}
+
+button {
+    background-color: transparent;
+    border: none;
+
+    cursor: pointer;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  gap: 3.0rem;
+
+  position: relative;
+  left: 400px;
+  top: -270px; 
+}
+
+
+
